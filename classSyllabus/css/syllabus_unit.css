@@ -1,0 +1,157 @@
+/* 界面高度 */
+.unit{
+    height: 100%;
+    width: 100%;
+}
+
+/* 界面布局 */
+.unit-interface{
+    width: 1695px;
+    height: 100%;
+}
+
+/* 头部 */
+.unit-header{
+    width: 100%;
+    height: 60px;
+    background: #EAF8FB;
+}
+
+/* 标题文字样式及定位 */
+.unit-header span {
+    color: #0bB2E6;
+    font-size: 16px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+/* 内容主体 */
+.unit-content{
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    margin: 40px 0 0 200px;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* 内容宽度 */
+.unit-content-width{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    box-shadow: -1px 15px 49px 11px rgba(192, 191, 190, 1);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+/* 内容顶部 */
+.unit-content-top{
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+}
+
+/* 内容标题 */
+.unit-content-top p{
+    height: 50px;
+    line-height: 50px;
+    width: 86%;
+    margin-left: 80px;
+    font-weight: 400;
+    color: #010101;
+    font-size: 24px;
+}
+
+/* 添加按钮 */
+.btn-add{
+    width: 58px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: right;
+
+}
+
+/* 删除按钮 */
+.btn-sub{
+    width: 58px;
+    height: 38px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.btn-sub div{
+    margin-left: 21px;
+    width: 12px;
+    height: 2px;
+    background: #333;
+}
+
+/* 内容框 */
+.piece{
+    width: 1200px;
+    height: auto;
+    padding-bottom: 300px;
+    float: left;
+    margin-top: 30px;
+}
+
+/* 内容行框 */
+.overall{
+    width: 1200px;
+    height:auto;
+}
+
+/* 每一块内容 */
+.each{
+    width: 290px;
+    height: auto;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 50px 0 0 80px;
+}
+
+/* 图片 */
+.each img{
+    width: 290px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/* 未填写 */
+.btn-write{
+    border-radius: 5px;
+    background: rgb(250,40,200);
+    margin-top: 20px;
+    cursor: unset;
+}
+
+.layui-btn.layui-btn{
+    margin-left: 40px;
+}
+
+/* 填写 */
+.btn-update{
+    background: #37a7f8;
+    margin-top: 20px;
+    width: 78px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 5px;
+}
+
+.unit-top{
+    width: 1200px;height: auto; position: fixed;background: #fff;margin-bottom: 20px;z-index: 100
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6adbb94e-666f-4a70-8179-d85d23e6951a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R5E2hhh8eqKrNtGV9x3ISHCfk3" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PHP\webstorm\project\classSyllabus\lib" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\js" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\css" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\img" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PHP\webstorm\project\classSyllabus\js" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\lib\ckeditor_4.12\ckeditor" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\lib\ckeditor_4.12" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\lib\ckeditor_4.12.1_standard\ckeditor\plugins" />
+      <recent name="F:\PHP\webstorm\project\classSyllabus\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6adbb94e-666f-4a70-8179-d85d23e6951a" name="Default Changelist" comment="" />
+      <created>1568948350751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568948350751</updated>
+      <workItem from="1568948353255" duration="27039000" />
+      <workItem from="1569053368665" duration="85000" />
+      <workItem from="1569198260923" duration="42882000" />
+      <workItem from="1569285977905" duration="38346000" />
+      <workItem from="1569371777754" duration="38222000" />
+      <workItem from="1569458272498" duration="67985000" />
+      <workItem from="1569654478921" duration="19223000" />
+      <workItem from="1569717252994" duration="24000" />
+      <workItem from="1569720647809" duration="12418000" />
+      <workItem from="1569738042201" duration="6061000" />
+      <workItem from="1569746881860" duration="18172000" />
+      <workItem from="1569766451289" duration="7903000" />
+      <workItem from="1569802720891" duration="10113000" />
+      <workItem from="1570522090136" duration="6984000" />
+      <workItem from="1570580879549" duration="7383000" />
+      <workItem from="1570590074194" duration="2063000" />
+      <workItem from="1571205396301" duration="213000" />
+      <workItem from="1571366698561" duration="176000" />
+      <workItem from="1571367918102" duration="1324000" />
+      <workItem from="1571382481827" duration="708000" />
+      <workItem from="1572247652022" duration="936000" />
+      <workItem from="1575892434920" duration="36000" />
+      <workItem from="1575904728211" duration="2419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

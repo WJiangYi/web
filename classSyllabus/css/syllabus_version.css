@@ -1,0 +1,159 @@
+/* 界面高度 */
+.version{
+    height: 100%;
+}
+
+/* 界面布局 */
+.version-interface{
+    width: 1695px;
+    height: 100%;
+}
+
+/* 头部 */
+.version-header{
+    width: 100%;
+    height: 60px;
+    background: #EAF8FB;
+}
+
+/* 标题文字样式及定位 */
+.version-header span {
+    color: #0bB2E6;
+    font-size: 16px;
+    line-height: 60px;
+    margin-left: 20px;
+
+}
+
+/* 内容主体 */
+.version-content{
+    width: 1400px;
+    height: 650px;
+    margin: 36px auto;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: -1px 15px 49px 11px rgba(192, 191, 190, 1);
+    border-radius: 10px;
+}
+
+/* 内容宽度 */
+.version-content-width{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* 内容顶部 */
+.version-content-top{
+    width: 100%;
+    height: 550px;
+    padding-top: 50px;
+}
+
+/* 内容标题 */
+.version-content-top p{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: #010101;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(37, 83, 114, 1);
+}
+
+/* 顶部内容框 */
+.version-content-top-information{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+/* 添加按钮位置 */
+.btn{
+    float: right;
+    width: 100px;
+    margin-right: 30px;
+}
+
+/* 提交按钮样式 */
+.sub{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+/*左边框*/
+.version-frame{
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+
+.version-frame-content{
+    width: 450px;
+    height: 40px;
+}
+
+/* 大纲（模板）版本号 */
+.version-frame-content span{
+    font-size: 14px;
+    float: left;
+}
+
+/* 版本号 */
+.version-num{
+    margin: 3px 0 0 20px;
+}
+
+/* 签字人间隔 */
+.version-made{
+    margin-top: 40px;
+    position: absolute;
+}
+
+.version-team{
+    margin-top: 120px;
+    position: absolute;
+}
+
+.version-department{
+    margin-top: 200px;
+    position: absolute;
+}
+
+
+/* 输入框 */
+.version-inp{
+    width: 125px;
+    height: 30px;
+    background: rgba(229,229,229,1);
+    border: none;
+    display: inline-block;
+}
+
+.version-input{
+    width: 150px;
+    height: 30px;
+    background: rgba(229,229,229,1);
+    border: none;
+    display: inline-block;
+}
+
+/* 日期框架 */
+.version-date-frame{
+    width: 450px;
+    height: 300px;
+    float: right;
+}
+
+/* 日期位置 */
+.date-made{
+    width: 450px;
+    height: 40px;
+    margin-top: 70px;
+}
+
+.version-date-review{
+    margin-top: 40px;
+}

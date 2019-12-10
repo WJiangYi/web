@@ -1,0 +1,70 @@
+/* 界面高度 */
+.basic{
+    height: 100%;
+}
+
+/* 界面布局 */
+.basic-interface{
+    width: 550px;
+    height: 360px;
+    border: 1px solid #0bB2E6;
+}
+
+/* 头部 */
+.basic-header{
+    width: 100%;
+    height: 50px;
+    background: #EAF8FB;
+}
+
+/* 标题文字样式及定位 */
+.basic-header span {
+    color: #0bB2E6;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+/* 内容主体 */
+.add{
+    width: 500px;
+    height: 200px;
+    margin: 50px auto;
+}
+
+/* 内容框架部分 */
+.basic-content-width{
+    width: 400px;
+    height: 100%;
+    margin: 60px auto;
+    position: relative;
+}
+
+/* 字体位置 */
+.basic-content-width span {
+    font-size: 16px;
+    line-height: 38px;
+    float: left;
+}
+
+/* 下拉框 */
+.select{
+    width: 350px;
+    height: 38px;
+    float: right;
+    position: absolute;
+    left: 20px;
+}
+
+/* 下拉框设置滚动条 */
+.layui-form-select dl {
+    max-height:200px;
+}
+
+/* 提交按钮位置 */
+.btn{
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+

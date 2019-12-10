@@ -1,0 +1,146 @@
+/* 界面高度 */
+.teach{
+    height: 100%;
+    width: 100%;
+}
+
+/* 界面布局 */
+.teach-interface{
+    width: 1695px;
+    height: 100%;
+}
+
+/* 头部 */
+.teach-header{
+    width: 100%;
+    height: 60px;
+    background: #EAF8FB;
+}
+
+/* 标题文字样式及定位 */
+.teach-header span {
+    color: #0bB2E6;
+    font-size: 16px;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+/* 内容主体 */
+.teach-content{
+    position: relative;
+    width: 1400px;
+    height: 1200px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* 内容宽度 */
+.teach-content-width{
+    position: absolute;
+    width: 100%;
+    box-shadow: -1px 15px 49px 11px rgba(192, 191, 190, 1);
+    border-radius: 10px;
+    height: auto;
+}
+
+/* 标题 */
+.teach-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    margin-top: 50px;
+}
+
+/* 小标题 */
+.teach-name{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align:left;
+    margin: 0 0 0 90px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+}
+
+/* 添加按钮 */
+.add-btn-teach{
+    width: 80px;
+    height: 36px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* 表格 */
+.teach-content-width table{
+    width: 1199px;
+    height: auto;
+    margin: 70px auto;
+
+}
+
+.teach-content-width table tbody{
+    height: 100%;
+}
+
+.teach-content-width table tr td{
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+}
+
+.teach-content-width table tr td span{
+    display: block;
+}
+
+/* 表格头框 */
+.tb_head{
+    height: 80px;
+}
+
+/* 表格框*/
+.h70{
+    height: 70px;
+}
+
+/* 编辑框样式 */
+.update-btn{
+    background:rgba(27,159,181,1);
+    border-radius:5px;
+    width: 80px;
+    height: 36px;
+}
+
+/* 删除框样式 */
+.delete-btn{
+    background:rgba(230,40,40,1);
+    border-radius:5px;
+    width: 80px;
+    height: 36px;
+}
+
+/* 编辑和删除图标样式 */
+.edit_delete i{
+    float: left;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: -5px;
+}
+
+/* 编辑和删除文字样式 */
+.edit_delete span{
+    display: inline-block !important;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+

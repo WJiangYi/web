@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>课程教学大纲</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../lib/layui/layui.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body class="layui-layout-body">
+<!--============= 课程教学大纲-导航 ==============-->
+<div class="layui-layout layui-layout-admin">
+    <!-- 头部 -->
+    <div class="layui-header grad">
+        <!-- 系统名称 -->
+        <a class="layui-logo" href="" >课程教学大纲</a>
+        <!-- 分步导航 -->
+        <div class="circle-position">
+            <div class="circle1">
+                <span>1</span>
+            </div>
+            <hr class="line1 line1-position">
+            <div class="circle1 circle2 circle2-position">
+                <span>2</span>
+            </div>
+            <hr class="line2 line2-position">
+            <div class="circle1 circle3 circle3-position">
+                <span>3</span>
+            </div>
+            <hr class="line3 line3-position">
+            <div class="circle1 circle4 circle4-position">
+                <span>4</span>
+            </div>
+            <hr class="line4 line4-position">
+            <div class="circle1 circle5 circle5-position">
+                <span>5</span>
+            </div>
+            <hr class="line5 line5-position">
+            <div class="circle1 circle6 circle6-position">
+                <span>6</span>
+            </div>
+            <hr class="line6 line6-position">
+            <div class="circle1 circle7 circle7-position">
+                <span>7</span>
+            </div>
+            <hr class="line7 line7-position">
+            <div class="circle1 circle8 circle8-position">
+                <span>8</span>
+            </div>
+            <hr class="line8 line8-position">
+            <div class="circle1 circle9 circle9-position">
+                <span>9</span>
+            </div>
+            <hr class="line9 line9-position">
+            <div class="circle1 circle10 circle10-position">
+                <span>10</span>
+            </div>
+            <hr class="line10 line10-position">
+            <div class="circle1 circle11 circle11-position">
+                <span>11</span>
+            </div>
+        </div>
+        <!-- 用户名和退出登录 -->
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a class="icon" href="javascript:void(0);"><i class="layui-icon layui-icon-username user"></i><span class="user">贤心</span></a>
+            </li>
+            <li class="layui-nav-item">
+                <a class="icon" href="javascript:void(0);"><img src="../img/退出%20.png" class="layui-nav-img"><span class="exit">退出登录</span></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 左侧导航区域 -->
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+                <li class="layui-nav-item lines"><a class="J_menuItem" href="syllabus_basic.html"><i class="layui-icon layui-icon-tabs"></i>课程基本信息</a></li>
+                <li class="layui-nav-item lines">
+                    <a href="javascript:;"><i class="layui-icon layui-icon-release"></i>教学目标</a>
+                    <dl class="layui-nav-child">
+                        <dd class="lines"><a class="J_menuItem" href="syllabus_teaching.html">教学目标</a></dd>
+                        <dd class="lines"><a class="J_menuItem" href="syllabus_teaching_list.html">教学目标列表</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item lines">
+                    <a href="javascript:;"><i class="layui-icon layui-icon-form"></i>各单元教学内容及基本信息要求</a>
+                    <dl class="layui-nav-child">
+                        <dd class="lines"><a class="J_menuItem" href="syllabus_unit.html">单元教学内容</a></dd>
+                        <dd class="lines"><a class="J_menuItem" href="syllabus_review.html">总复习</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item lines"><a class="J_menuItem" href="syllabus_implement.html"><i class="layui-icon layui-icon-list"></i>实践教学项目实施计划表</a></li>
+                <li class="layui-nav-item lines"><a class="J_menuItem" href="syllabus_method.html"><i class="layui-icon layui-icon-engine"></i>教学方法</a></li>
+                <li class="layui-nav-item lines"><a class="J_menuItem" href="syllabus_resource.html"><i class="layui-icon layui-icon-link"></i>教学资源</a></li>
+                <li class="layui-nav-item lines">
+                    <a href="javascript:;"><i class="layui-icon layui-icon-read"></i>课程考核</a>
+                    <dl class="layui-nav-child">
+                        <dd class="lines"><a class="J_menuItem" href="syllabus_assessment.html">课程考核内容及总体安排</a></dd>
+                        <dd lines><a class="J_menuItem" href="syllabus_final.html">终结性考核安排</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item lines"><a class="J_menuItem" href="syllabus_version.html"><i class="layui-icon layui-icon-template-1"></i>大纲管理</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 内容主体区域 -->
+    <div class="layui-body">
+        <div id="page-wrapper" class="wrapper">
+            <div class="J_mainContent" id="content-main">
+                <iframe id="J_iframe" width="100%" height="100%" src="syllabus_basic.html" frameborder="0"
+                        data-id="" seamless></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

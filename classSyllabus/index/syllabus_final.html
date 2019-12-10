@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>课程教学大纲-课程考核-终结性考核安排</title>
+    <link rel="stylesheet" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/syllabus_final.css">
+    <script src="../lib/layui/layui.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/pop_ups.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/layuse.js"></script>
+    <script src="../js/final.js"></script>
+</head>
+<body>
+<!--============= 课程考核-终结性考核安排 ==============-->
+<!-- 主体内容 -->
+<div class="final">
+    <div class="final-interface">
+        <!-- 头部内容 -->
+        <div class="final-header">
+            <span>终结性考核安排</span>
+        </div>
+        <!-- 内容主体 -->
+        <div class="final-content">
+            <div class="final-content-width">
+                <div class="final-content-top">
+                    <p>终结性考核安排</p>
+                    <div class="final-content-top-information">
+                        <table class="layui-table" lay-size="lg">
+                            <colgroup>
+                                <col width="200">
+                                <col width="00">
+                                <col width="200">
+                                <col width="100">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th>课程性质</th>
+                                <td>
+                                    <div class="layui-form" action="">
+                                        <div class="layui-form-item">
+                                            <div class="layui-input-block radio-margin">
+                                                <div class="radio-input">
+                                                    <input type="radio" name="class" title="必修课" lay-skin="primary">
+                                                </div>
+                                                <div class="radio-input2">
+                                                    <input type="radio" name="class" title="选修课" lay-skin="primary">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
+                                <th>考试时长</th>
+                                <td class="input"><input type="text" name="考试时长" id="time"/></td>
+                            </tr>
+                            <tr>
+                                <th>组织形式</th>
+                                <td>
+                                    <div class="layui-form" action="">
+                                        <div class="layui-form-item">
+                                            <div class="layui-input-block">
+                                                <div class="radio-input-org">
+                                                    <input type="radio" name="" title="学院统一组织" lay-skin="primary">
+                                                </div>
+                                                <div class="radio-input-org2">
+                                                    <input type="radio" name="" title="学校组织" lay-skin="primary">
+                                                </div>
+                                                <div class="radio-input-org3">
+                                                    <input type="radio" name="" title="系部组织" lay-skin="primary">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <th>试卷满分</th>
+                                <td class="input">
+                                    <input type="text" name="试卷满分" id="test"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>考核方式</th>
+                                <td colspan="3">
+                                    <div class="layui-form" action="">
+                                        <div class="layui-form-item">
+                                            <div class="layui-input-block">
+                                                <div class="check-input">
+                                                    <input type="radio" name="" title=" 闭卷" lay-skin="primary">
+                                                </div>
+                                                <div class="check-input2">
+                                                    <input type="radio" name="" title=" 开卷" lay-skin="primary">
+                                                </div>
+                                                <div class="check-input3">
+                                                    <input type="radio" name="" title=" 机考" lay-skin="primary">
+                                                </div>
+                                                <div class="check-input4">
+                                                    <input type="radio" name="" title=" 口试" lay-skin="primary">
+                                                </div>
+                                                <div class="check-input5">
+                                                    <input type="radio" name="" title=" 项目考核" lay-skin="primary">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>重点考核知识</th>
+                                <td class="knowledge"></td>
+                                <th>教学大纲覆盖率</th>
+                                <td class="input"><input type="text"  name="教学大纲覆盖率" id="teach"/></td>
+                            </tr>
+                            <tr>
+                                <th>试题类型</th>
+                                <td colspan="3" class="input2">
+                                    <input type="text" name="试题类型" id="type" placeholder="请以顿号分隔输入..."/>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <a class="layui-btn layui-btn-lg sub">提 交</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,67 @@
+/* 界面高度 */
+.basic{
+    height: 100%;
+}
+
+/* 界面布局 */
+.basic-interface{
+    width: 800px;
+    height: 600px;
+}
+
+/* 头部 */
+.basic-header{
+    width: 100%;
+    height: 50px;
+    background: #EAF8FB;
+}
+
+/* 标题文字样式及定位 */
+.basic-header span {
+    color: #0bB2E6;
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+/* 内容框 */
+.knowledge{
+    width: 800px;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* 单元 */
+.knowledge-content{
+    width: 600px;
+    height: 38px;
+    margin-left: 340px;
+    position: absolute;
+}
+
+/* 目标内容标题 */
+.knowledge-content span{
+    font-size: 18px;
+    line-height: 38px;
+    position: absolute;
+}
+
+/*富文本位置*/
+.unit-text{
+    width: 650px;
+    height: 300px;
+    margin: 20px 0 0 80px;
+}
+
+/*提交按钮*/
+.btn{
+    width: 1000px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.btn button{
+    width: 100px;
+    margin-left: 340px;
+}
